@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Websidte</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/546d1c061a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">ホーム</a></li>
+                <li><a href="#about" class="menu-btn">自己紹介</a></li>
+                <li><a href="#services" class="menu-btn">夢</a></li>
+                <li><a href="#skills" class="menu-btn">スキル</a></li>
+                <li><a href="#teams" class="menu-btn">趣味</a></li>
+                <li><a href="#contact" class="menu-btn">連絡</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">はじめまして!!</div>
+                <div class="text-2">富田恭介と言います。</div>
+                <!-- <div class="text-3">And I'm a <span class="typing"></span></div> -->
+                <!-- <a href="#">Hire me</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">自己紹介</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="IMGMyself.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">あだ名は<span>トミー</span>です</div>
+                    <p>1999年生まれ。香川県出身。幼稚園3年間を大阪で過ごす。小学生以降は神奈川育ち。
+                        小学4年から高校3年まで野球に情熱を注いだ。
+                        パンチ力のある打撃と50m6秒前半の俊足で9年間ベンチを温め続けた。
+                        2018年中央大学総合政策学部に進学。
+                        1年次はバイト、サークル、授業に明け暮れていた。
+                        9月に右腕の骨折により1ケ月の入院生活を送る。
+                        2年次は友人と大学の近所に家を借りてシェアハウス開始。
+                        1月からコロナウイルスの影響で実家に戻る。
+                        3年次はオンライン授業を卒なくこなす。隙間時間で読書に熱中。
+                        4年次は就職活動と卒論を卒なくこなせず。
+                        巻き返しなるか。</p>
+                    <!-- <a href="#">Download CV</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">私の夢</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">執筆家</div>
+                        <p>自分が書いた本を読んで一人でも多くの人が救われて欲しい。
+                            100年後も出版される本を書く。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">エンジニア</div>IT技術を活用し、社会の課題を解決したい。
+                        自分のアイデアを表現し、社会に貢献出来るエンジニアになる。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-hiking"></i>
+                        <div class="text">人徳者</div>
+                        <p>進んでリスクを取り、利他的な生き方を実践することで他者の役に立つ。
+                            自分の選択に誇りを持つ。
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">スキル</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">素人レベル</div>
+                    <p>2021年からブロックチェーンの存在を本で知り、プログラミングに興味を持つ。
+                        HTML、CSS、JavaScriptの勉強を開始。
+                        Youtube上にある動画を見ながらアプリを作成。
+                        しかし、模写する事しかできない。
+                        ブロックチェーンを実装してみたくてpythonに手を出すも苦戦。
+                        pythonではtkinterやPyQtなどのGUIを楽しむ。
+                        現在はwebサイト制作がしたいためphpの基礎を学んでいる。
+                        留学生の友達が欲しかったため、英語の勉強を始める。友達はできず。
+                        2020年:英検準一級合格。
+                        2020年:英検一級不合格。
+                        2021年:TOEIC835点。</p>
+                    <!-- <a href="#">Read more</a> -->
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>python</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>英語</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">趣味</h2>
+            <div class="carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="photo-1551106652-a5bcf4b29ab6.jpg" alt="">
+                        <div class="text">ドーナツ</div>
+                        <p>甘い物には目がない。特にドーナツは特別な存在。</p>    
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="photo-1473625247510-8ceb1760943f.jpg" alt="">
+                        <div class="text">旅行</div>
+                        <p>旅行好きと自負していながら海外に行った事はない。</p>    
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="photo-1603284569248-821525309698.jpg" alt="">
+                        <div class="text">読書</div>
+                        <p>看護師の影響で読書を始める。古典が好き。</p>    
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="photo-1612016410921-264f6afed556.jpg" alt="">
+                        <div class="text">ピアノ</div>
+                        <p>YouTuberの影響でピアノを始める。練習不足。</p>    
+                    </div>
+                </div>
+<!--                 <div class="card">
+                    <div class="box">
+                        <img src="TOP_2__1_.png" alt="">
+                        <div class="text">アイドル</div>
+                        <p>自分と対局の存在であるため崇拝。写真はときめき宣伝部。</p>    
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">連絡</h2>
+            <div class="column left">
+                <div class="contact-content">
+                    <div class="column left">
+                        <div class="text">Get in Touch</div>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione in! Obcaecati provident dolore voluptate iure aliquid repudiandae ad aperiam?</p> -->
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">富田恭介</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub-title">神奈川、横浜</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">k.tomita916@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column right">
+                        <div class="text">Message me</div>
+                        <form action="#">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" placeholder="Name" required> 
+                                </div>
+                                <div class="field email">
+                                    <input type="email" placeholder="Email" required> 
+                                </div>
+                            </div>
+                                <div class="field">
+                                    <input type="text" placeholder="Subject" required> 
+                                </div>
+                                <div class="field textarea">
+                                    <textarea  cols="30" rows="10" placeholder="Describe project.." required></textarea>
+                                </div>
+                                <div class="button">
+                                    <button class="submit">Send message</button>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="">CodingJapan</a> | <span class="far fa-copyright"></span>2022 All rights reserved.</span>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
